@@ -1,0 +1,280 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#first
+{
+    background-color: #f2f2f2;
+    padding: 5% 14% 6% 14%;
+    width: 100%;
+}
+
+#second
+{
+    padding: 5% 13% 2% 13%;
+}
+
+#third
+{
+    padding: 5% 13% 2% 13%;
+    text-align: center;
+}
+
+#fourth
+{
+    padding: 6% 14% 5% 14%;
+}
+
+#fifth
+{
+    padding: 5% 14% 6% 14%;
+}
+
+#sixth
+{
+    padding: 4% 12% 4% 12%;
+}
+
+#seventh
+{
+    padding: 3% 9% 2% 9%;
+    background-color: #f4b0a4;
+}
+
+#eighth
+{
+    padding: 5% 7% 6% 7%;
+    margin: auto 0;
+}
+
+.nav-link
+{
+    color: #364e68;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-link:hover
+{
+    color: #ee8572;
+}
+
+.nav-pills .nav-link.active
+{
+    color: #364e68;
+    background-color: #f19c8e;
+}
+
+h1
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 450%;
+    color: #006666;
+    width: 100%;
+}
+
+h2
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #00666450
+    padding-bottom: 1%;
+}
+
+h3
+{
+    margin: 1.5%;
+    color: #364e68;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h4
+{
+    color: #004d4d;
+    font-size: 1.5rem;
+}
+
+h5
+{
+    color: #004d4d;
+    font-size: 1.2rem;
+}
+
+p
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading
+{
+    margin-top: 15%;
+    margin: auto 0;
+    text-align: left;
+    width: 100%;
+}
+
+#im1
+{
+    width: 100%;
+}
+
+.resume
+{
+    color: #ee8572;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#gradcap
+{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.scroll-down i 
+{
+  color: #004d4d;
+  transition: color 650ms;
+  margin-top: 2rem;
+  font-size: 3.5rem;
+}
+
+.scroll-down i:hover 
+{
+  color: #f19c8e;
+}
+
+
+#im2
+{
+    width: 80%;
+    mix-blend-mode: darken;
+}
+
+.masters
+{
+    margin: auto 0;
+}
+
+.education
+{
+    margin: 2% 0;
+}
+
+.card
+{
+    padding: 6% 0;
+    margin: 2.5%;
+}
+
+.achievements
+{
+    padding: 1.5% 8%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+#im4
+{
+     width: 80%;
+     border-radius: 60%;
+    
+}
+
+.connect
+{
+    margin: 1% 4%;
+    color: #004d4d;
+    font-size: 1.2rem;
+}
+
+.fab-icon   /* ----------------------------------------- icons section ------------------------------------------- */
+{
+    color: #364e68;
+    margin: 1.3rem;
+    
+}
+
+.fab-icon:hover
+{
+    color: #d9f2e6;
+}
+
+#im3
+{
+    border-radius: 50%;
+}
+
+#copyright
+{
+    margin-top: 1.7%;
+    font-weight: bold;
+    color: #364e68;
+}
+
+/* projects */
+/* Projects */
+.has-margin-right {
+  margin: 0 3rem 0 0;
+}
+
+.projects 
+{
+  min-height: 100vh;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.desc
+{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.45rem 5rem 1.45rem;
+}
+
+.project-img {
+  flex: 1;
+}
+
+.project-description {
+  flex: 1;
+}
+
+@media (max-width: 750px)
+{
+
+  .project-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+  }
+
+  .project-img {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1
+    {
+        font-size: 3rem;
+    }
+}
+
